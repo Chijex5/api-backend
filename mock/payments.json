@@ -1,0 +1,21 @@
+[
+    {
+      "paymentid": "pay002",
+      "userid": "u002",
+      "order_id": "ord124",
+      "amount": 1000000,
+      "status": "payment",
+      "method": "paystack",
+      "timestamp": "2025-04-19T09:17:00Z"
+    },
+    {
+      "paymentid": "pay003",
+      "userid": "u003",
+      "order_id": "ord125",
+      "amount": 700000,
+      "status": "success",
+      "method": "paystack",
+      "timestamp": "2025-04-19T09:17:00Z"
+    }
+  ]
+  

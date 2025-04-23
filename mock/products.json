@@ -1,0 +1,17 @@
+[
+    {
+      "product_id": "p002",
+      "name": "Mackbook pro 2023",
+      "image": "macpro2023.png",
+      "description": "bro it's a macbook",
+      "price": 1000000
+    },
+    {
+      "product_id": "p003",
+      "name": "Wig",
+      "image": "wig29.svg",
+      "description": "i don't know anything about girls wig",
+      "price": 70000
+    }
+  ]
+  

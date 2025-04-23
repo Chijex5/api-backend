@@ -1,0 +1,31 @@
+[
+    {
+      "user_id": "u002",
+      "name": "Chijioke Uzodinma",
+      "email": "embroconnect3@gmail.com",
+      "phone": "0708809973",
+      "address": "17 Peace Estate, Ojo, Lagos"
+    },
+    {
+      "user_id": "u003",
+      "name": "Somto Kenechukwu",
+      "email": "faustina13@gmail.com",
+      "phone": "08123216373",
+      "address": "21 okukwo Junction, Gariki, Enugu"
+    },
+    {
+        "user_id": "u004",
+        "name": "Tech Corp LLC",
+        "email": "support@techcorp.com",
+        "phone": "09012345678",
+        "address": "45 New Road, Awka, Anambra"
+    },
+    {
+        "user_id": "u005",
+        "name": "Oluchukwu Nwankwo",
+        "email": "oluchinwankow23@hotmail.com",
+        "phone": "08012345678",
+        "address": "123 Main St, Lagos"
+    }
+  ]
+  
