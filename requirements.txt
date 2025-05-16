@@ -11,3 +11,4 @@ reportlab==4.2.5
 pillow==11.1.0
 google==3.0.0
 Flask-SocketIO==5.5.1
+eventlet==0.39.1
