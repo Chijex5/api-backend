@@ -26,6 +26,7 @@ app.config['MYSQL_DB'] = os.getenv('MYSQL_DB')
 app.config['MYSQL_PORT'] = int(os.getenv('MYSQL_PORT', 3306))
 mysql = MySQL(app)
 
+PORT = int(os.environ.get('PORT', 5000))  
 # Chat States
 CHAT_STATES = {
     'WAITING': 'waiting',
@@ -929,4 +930,4 @@ def handle_join_chat(data):
         })
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5000)
+    socketio.run(app, host='0.0.0.0', port=PORT)
