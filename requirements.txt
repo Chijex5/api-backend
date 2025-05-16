@@ -9,3 +9,5 @@ PyJWT==2.10.1
 python-dotenv==1.0.1
 reportlab==4.2.5
 pillow==11.1.0
+google==3.0.0
+Flask-SocketIO==5.5.1

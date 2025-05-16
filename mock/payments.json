@@ -4,7 +4,7 @@
       "userid": "u002",
       "order_id": "ord124",
       "amount": 1000000,
-      "status": "payment",
+      "status": "failed",
       "method": "paystack",
       "timestamp": "2025-04-19T09:17:00Z"
     },
