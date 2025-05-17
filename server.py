@@ -276,6 +276,13 @@ Always refer to the platform as "ShopNex".
             'formatted': f'<div>{html.escape(error_message)}</div>'
         }
 
+@app.route('/health', methods=['GET'])
+def health_check():
+    """Health check endpoint to verify the API is running."""
+    return jsonify({
+        "status": "healthy", 
+        "timestamp": datetime.now().isoformat()
+    }), 200
 
 @app.route('/support', methods=['POST'])
 def support():
